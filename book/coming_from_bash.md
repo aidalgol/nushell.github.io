@@ -28,6 +28,7 @@ Note: this table assumes Nu 0.60.0 or later.
 | `>> <path>`                          | `\| save --raw --append <path>`                  | Append string to a file                                           |
 | `cat <path>`                         | `open --raw <path>`                              | Display the contents of the given file                            |
 |                                      | `open <path>`                                    | Read a file as structured data                                    |
+| `<command> < <path>`                 | `open --raw | <command>`                         | Run a given command with a given file as standard input
 | `mv <source> <dest>`                 | `mv <source> <dest>`                             | Move file to new location                                         |
 | `cp <source> <dest>`                 | `cp <source> <dest>`                             | Copy file to new location                                         |
 | `cp -r <source> <dest>`              | `cp -r <source> <dest>`                          | Copy directory to a new location, recursively                     |
